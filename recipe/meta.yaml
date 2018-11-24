@@ -14,9 +14,9 @@ source:
   sha256: bd4d3a0f9223d759afe70fff58efd9db595ca69fee777203921785a2c6e1b0e9
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -51,8 +51,7 @@ about:
     a 'ggplot', outputs the calculations, outputs the formula needed to calculate
     bins.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
