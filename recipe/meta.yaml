@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dbplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dbplot/dbplot_{{ version }}.tar.gz
-  sha256: bec99a180741681bc84d97175a55aa52c8ded9453d579cc0c7917604323ba8d7
+  sha256: 379013aaae350ce1c0ecea338fd404c693d6cebc02fbeca74840b9e0b6fc8177
 
 build:
   noarch: generic
