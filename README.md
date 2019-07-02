@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-dbplot
 ==============
 
@@ -11,19 +7,22 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: Leverages 'dplyr' to process the calculations of a plot inside a database. This
-package provides helper functions that abstract the work at three levels: outputs
-a 'ggplot', outputs the calculations, outputs the formula needed to calculate
-bins.
-
+Summary: Leverages 'dplyr' to process the calculations of a plot inside a database.  This package provides helper functions that abstract the work at three levels: outputs a 'ggplot', outputs the calculations, outputs the formula needed to calculate bins.
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-dbplot-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-dbplot-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6021&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-dbplot-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -117,10 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@halldc](https://github.com/halldc/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
