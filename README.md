@@ -7,11 +7,7 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: Leverages 'dplyr' to process the calculations of a plot inside a database. This
-package provides helper functions that abstract the work at three levels: outputs
-a 'ggplot', outputs the calculations, outputs the formula needed to calculate
-bins.
-
+Summary: Leverages 'dplyr' to process the calculations of a plot inside a database.  This package provides helper functions that abstract the work at three levels: outputs a 'ggplot', outputs the calculations, outputs the formula needed to calculate bins.
 
 
 
@@ -120,10 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@halldc](https://github.com/halldc/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
