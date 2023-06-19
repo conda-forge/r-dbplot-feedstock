@@ -1,11 +1,11 @@
-About r-dbplot
-==============
+About r-dbplot-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dbplot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/edgararuiz/dbplot
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dbplot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Leverages 'dplyr' to process the calculations of a plot inside a database.  This package provides helper functions that abstract the work at three levels: outputs a 'ggplot', outputs the calculations, outputs the formula needed to calculate bins.
 
